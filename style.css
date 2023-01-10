@@ -1,7 +1,8 @@
 h1{
-    color: greenyellow;
-    text-align: center;
-    text-decoration: underline;
+    color:black;
+    /* text-align: center; */
+    font-style: bold;
+   
 }
 h2{
     color: yellowgreen;
@@ -10,4 +11,121 @@ h2{
 h3{
     color: yellowgreen;
     text-decoration: underline;
+}
+.sindh{
+    font-size: 20px;
+    font-style: italic;
+    text-align:left;
+    color:black;
+}
+.punjab{
+    font-size: 20px;
+    font-style: italic;
+    text-align:left;
+    color:black;
+} 
+.kpk{
+    font-size: 20px;
+    font-style: italic;
+    text-align:left;
+    color:black;    
+}
+.balochistan{
+    font-size: 20px;
+    font-style: italic;
+    text-align:left;
+    color:black;}
+.triplogo{
+          height: 60px;
+          width: 200px;
+}
+.search{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    margin-bottom: 12px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px #ccc;
+    top: 0px;
+    width: 98%;
+}
+.navbar + ul{
+    position: relative;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+li:hover{
+    border-bottom-width: 3px;
+    border-bottom-color: green;
+    border-bottom-style: solid;
+}
+i{
+    margin-left: 5px;
+    color: green;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+.triphead{
+    height: auto;
+    background-color: #faf1ed;
+    box-shadow: 0px 2px 1px #ccc;
+    height: 80px;
+    /* padding-top: 20px; */
+    padding-bottom: 160px;
+     display: flex; 
+     justify-content:space-between;
+     padding-left: 10px;
+     
+}
+.head{
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+.tripimg{
+    height: 240px;
+    width: 800px;
+    
+}
+.selectbutton{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:black;
+    padding-left: 10px;
+    color: white;
+}
+.card_head{
+    position:absolute;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding-top: 240px;
+    padding-left: 50px;
+
+}
+.karachi_card{
+    padding-left: 30px;
+}
+.karachi_card_container{
+    display: flex;
 }
