@@ -9,7 +9,7 @@ h2{
     text-decoration: underline;
 }
 h3{
-    color: yellowgreen;
+    color: black;
     text-decoration: underline;
 }
 .sindh{
@@ -128,4 +128,51 @@ li>a{
 }
 .karachi_card_container{
     display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.way_tour{
+    text-align: left;
+    padding-left: 30px;
+}
+/* .card{ 
+    text-align: justify;
+}*/
+.card_contain{
+    display: flex;
+    /* padding-left: 20px; */
+    justify-content: space-between; 
+    /* flex-wrap: wrap; */
+    padding-left: 20px;
+}
+.karachi_head ,.price{
+     padding-right: 25px;
+     padding-top: 0px;
+    
+}
+.to-go{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+    padding-top: 10px;   
+}
+.heart{
+    background-color:#fff; 
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 1px 1px #ccc;
+    border-radius: 100%;
+    justify-content: horizontal;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.heart>i{
+    color: black;
+    margin-top: 12px;
+    margin-left: 13px;
+    font-size: 25px;
+}
+.card:hover{
+    opacity: 0.5;
 }
